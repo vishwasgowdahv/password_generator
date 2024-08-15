@@ -1,0 +1,33 @@
+/* .main{
+    background-color: white;
+    color: black;
+} */
+
+.pwdisp{
+    height: 33px;
+    margin: 10px;
+    border-radius: 30px;
+    padding: 5px 15px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+.copybtn{
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color: transparent;
+    color: white;
+}
+.copybtn:hover {
+    background-color: white;
+    color: black;
+}
+.lengthdiv{
+    margin: 20px 0px;
+}
+.checkbox{
+    margin-right: 20px;
+    border-radius: 50%;
+}
+label{
+    font-size: 22px;
+}
