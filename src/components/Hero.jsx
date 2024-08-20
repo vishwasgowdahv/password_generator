@@ -12,8 +12,8 @@ export default function Hero() {
   // Random Password Generator Function
   function passwordGenerte() {
     let letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
-    let nums = "12345678901234567890";
-    let chars = "!@#$%^&*?!@#$%^";
+    let nums = "12345678901234567890123456789";
+    let chars = "!@#$&!@#$!#@$$#@!@#!$#@";
     if (userNmuber) {
       letters += nums;
     }
