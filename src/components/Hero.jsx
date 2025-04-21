@@ -7,6 +7,7 @@ export default function Hero() {
   const [length, setLength] = useState(8);
   const [userNmuber, setUserNumber] = useState(false);
   const [spChar, setSpChar] = useState(false);
+  const [copyDisp, setCopyDisp] = useState("Copy");
   const copyref = useRef();
 
   // Random Password Generator Function
@@ -33,6 +34,11 @@ export default function Hero() {
     document.querySelector("#copytext").select();
     console.log(copyref.current?.value);
     navigator.clipboard.writeText(copyref.current?.value);
+    setCopyDisp("Copied!");
+    setTimeout(() => {
+      setCopyDisp("Copy");
+    console.log(copyDisp);
+    }, 2000);
   }
 
   // useEffect to rerender when given dependencies changes
@@ -54,7 +60,7 @@ export default function Hero() {
             readOnly
           />
           <button className={styles.copybtn} onClick={handleCopy}>
-            copy
+            {copyDisp}
           </button>
         </div>
         <div>

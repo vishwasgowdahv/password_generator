@@ -1,33 +1,36 @@
 /* .main{
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
 } */
 
-.pwdisp{
-    height: 33px;
-    margin: 10px;
-    border-radius: 30px;
-    padding: 5px 15px;
-    border: 1px solid white;
-    background-color: transparent;
+.pwdisp {
+  height: 33px;
+  margin: 10px;
+  border-radius: 30px;
+  padding: 5px 15px;
+  border: 1px solid silver;
+  background-color: transparent;
 }
-.copybtn{
-    border: 1px solid white;
-    border-radius: 30px;
-    background-color: transparent;
-    color: white;
+.copybtn {
+  border: 1px solid silver;
+  border-radius: 30px;
+  background-color: transparent;
+  color: grey;
+}
+#copyfirst {
+    display: none;
 }
 .copybtn:hover {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
-.lengthdiv{
-    margin: 20px 0px;
+.lengthdiv {
+  margin: 20px 0px;
 }
-.checkbox{
-    margin-right: 20px;
-    border-radius: 50%;
+.checkbox {
+  margin-right: 20px;
+  border-radius: 50%;
 }
-label{
-    font-size: 22px;
+label {
+  font-size: 22px;
 }
